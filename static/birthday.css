@@ -1,0 +1,104 @@
+body {
+	background-color: #393937;
+}
+
+img {
+	width: 95%;
+	margin: 12px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px 3px #171814;
+}
+
+img:hover {
+	border-radius: 10px;
+}
+
+.jumbotron, .jumbotron a {
+	background-color: #393937;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 2em;
+	font-family: "Amatic SC";
+	color: #FDFCFD;
+}
+
+.jumbotron h1 {
+	font-family: "Amatic SC";
+	font-size: 14vh;
+	font-weight: 700;
+	cursor: default;
+}
+
+.jumbotron h1:hover {
+	-webkit-animation: neon 1.25s ease-in-out infinite alternate;
+	-moz-animation: neon 1.25s ease-in-out infinite alternate;
+	animation: neon 1.25s ease-in-out infinite alternate; 
+
+}
+
+.jumbotron h2, .jumbotron h2 a {
+	font-family: "Amatic SC";
+	font-size: 8vh;
+	font-weight: 400;
+}
+
+.jumbotron h3 {
+	font-size: 1vh;
+}
+
+.jumbotron h2 a:hover {
+	text-shadow: 0 0 10px #FFF,
+				0 0 20px  #FFF,
+				0 0 30px  #FFF,
+				0 0 40px  #FF00DE,
+				0 0 50px  #FF00DE;
+	text-decoration: none;
+}
+
+
+
+
+img.icon {
+	width: 20px;
+	height: 20px;
+}
+
+.img-wrapper {
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 5px;
+
+}
+
+.img-wrapper img {
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	vertical-align: middle;
+}
+
+
+/*ANIMATION*/
+
+@-webkit-keyframes neon {
+	from {
+		text-shadow: 0 0 5px #FFF;
+	}
+	to {
+		text-shadow: 0 0 10px #FFF,
+					0 0 20px  #FFF,
+					0 0 30px  #FFF,
+					0 0 70px  #FF00DE,
+					0 0 80px  #FF00DE;
+	}
+}
+
+
+
+.col-md-4, .col-xs-12 {
+	color; #F9FEFC; 
+}
+
+
