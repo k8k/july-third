@@ -24,12 +24,12 @@ img:hover {
 
 .jumbotron h1 {
 	font-family: "Amatic SC";
-	font-size: 14vh;
+	font-size: 13vw;
 	font-weight: 700;
 	cursor: default;
 }
 
-.jumbotron h1:hover {
+.jumbotron h1:hover, .jumbotron a hover {
 	-webkit-animation: neon 1.25s ease-in-out infinite alternate;
 	-moz-animation: neon 1.25s ease-in-out infinite alternate;
 	animation: neon 1.25s ease-in-out infinite alternate; 
@@ -38,15 +38,12 @@ img:hover {
 
 .jumbotron h2, .jumbotron h2 a {
 	font-family: "Amatic SC";
-	font-size: 8vh;
+	font-size: 8vw;
 	font-weight: 400;
 }
 
-.jumbotron h3 {
-	font-size: 1vh;
-}
 
-.jumbotron h2 a:hover {
+.jumbotron h2 a {
 	text-shadow: 0 0 10px #FFF,
 				0 0 20px  #FFF,
 				0 0 30px  #FFF,
