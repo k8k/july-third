@@ -24,7 +24,7 @@ img:hover {
 
 .jumbotron h1 {
 	font-family: "Amatic SC";
-	font-size: 13vw;
+	font-size: 16vh;
 	font-weight: 700;
 	cursor: default;
 }
@@ -38,7 +38,7 @@ img:hover {
 
 .jumbotron h2, .jumbotron h2 a {
 	font-family: "Amatic SC";
-	font-size: 8vw;
+	font-size: 8vh;
 	font-weight: 400;
 }
 
